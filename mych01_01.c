@@ -6,11 +6,11 @@ int factorial(int);
 int main(){
 	int i, n;
 	
-	printf("ÇëÊäÈë½×³Ë£º");	
+	printf("è¯·è¾“å…¥");	
 	scanf("%d",&n);
 
 	for (i=0; i<=n; i++)
-		printf("%2d !µÄÖµÎª %10d \n", i, factorial(i));
+		printf("%2d !ÂµÃ„Ã–ÂµÃÂª %10d \n", i, factorial(i));
 	
 	system("pause");
 	return 0;
